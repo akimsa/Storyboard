@@ -1,0 +1,269 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B8BAF4715EF195100EEFB1D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B8BAF4615EF195100EEFB1D /* UIKit.framework */; };
+		2B8BAF4915EF195100EEFB1D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B8BAF4815EF195100EEFB1D /* Foundation.framework */; };
+		2B8BAF4B15EF195100EEFB1D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B8BAF4A15EF195100EEFB1D /* CoreGraphics.framework */; };
+		2B8BAF5115EF195100EEFB1D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2B8BAF4F15EF195100EEFB1D /* InfoPlist.strings */; };
+		2B8BAF5315EF195100EEFB1D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B8BAF5215EF195100EEFB1D /* main.m */; };
+		2B8BAF5715EF195100EEFB1D /* STAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B8BAF5615EF195100EEFB1D /* STAppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2B8BAF4215EF195100EEFB1D /* StoryTime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StoryTime.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B8BAF4615EF195100EEFB1D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2B8BAF4815EF195100EEFB1D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2B8BAF4A15EF195100EEFB1D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2B8BAF4E15EF195100EEFB1D /* StoryTime-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "StoryTime-Info.plist"; sourceTree = "<group>"; };
+		2B8BAF5015EF195100EEFB1D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2B8BAF5215EF195100EEFB1D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2B8BAF5415EF195100EEFB1D /* StoryTime-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "StoryTime-Prefix.pch"; sourceTree = "<group>"; };
+		2B8BAF5515EF195100EEFB1D /* STAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STAppDelegate.h; sourceTree = "<group>"; };
+		2B8BAF5615EF195100EEFB1D /* STAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = STAppDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2B8BAF3F15EF195100EEFB1D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B8BAF4715EF195100EEFB1D /* UIKit.framework in Frameworks */,
+				2B8BAF4915EF195100EEFB1D /* Foundation.framework in Frameworks */,
+				2B8BAF4B15EF195100EEFB1D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B8BAF3715EF195100EEFB1D = {
+			isa = PBXGroup;
+			children = (
+				2B8BAF4C15EF195100EEFB1D /* StoryTime */,
+				2B8BAF4515EF195100EEFB1D /* Frameworks */,
+				2B8BAF4315EF195100EEFB1D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2B8BAF4315EF195100EEFB1D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2B8BAF4215EF195100EEFB1D /* StoryTime.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2B8BAF4515EF195100EEFB1D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2B8BAF4615EF195100EEFB1D /* UIKit.framework */,
+				2B8BAF4815EF195100EEFB1D /* Foundation.framework */,
+				2B8BAF4A15EF195100EEFB1D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2B8BAF4C15EF195100EEFB1D /* StoryTime */ = {
+			isa = PBXGroup;
+			children = (
+				2B8BAF5515EF195100EEFB1D /* STAppDelegate.h */,
+				2B8BAF5615EF195100EEFB1D /* STAppDelegate.m */,
+				2B8BAF4D15EF195100EEFB1D /* Supporting Files */,
+			);
+			path = StoryTime;
+			sourceTree = "<group>";
+		};
+		2B8BAF4D15EF195100EEFB1D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2B8BAF4E15EF195100EEFB1D /* StoryTime-Info.plist */,
+				2B8BAF4F15EF195100EEFB1D /* InfoPlist.strings */,
+				2B8BAF5215EF195100EEFB1D /* main.m */,
+				2B8BAF5415EF195100EEFB1D /* StoryTime-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2B8BAF4115EF195100EEFB1D /* StoryTime */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B8BAF5A15EF195100EEFB1D /* Build configuration list for PBXNativeTarget "StoryTime" */;
+			buildPhases = (
+				2B8BAF3E15EF195100EEFB1D /* Sources */,
+				2B8BAF3F15EF195100EEFB1D /* Frameworks */,
+				2B8BAF4015EF195100EEFB1D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StoryTime;
+			productName = StoryTime;
+			productReference = 2B8BAF4215EF195100EEFB1D /* StoryTime.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2B8BAF3915EF195100EEFB1D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ST;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Akim Salem-Atia";
+			};
+			buildConfigurationList = 2B8BAF3C15EF195100EEFB1D /* Build configuration list for PBXProject "StoryTime" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2B8BAF3715EF195100EEFB1D;
+			productRefGroup = 2B8BAF4315EF195100EEFB1D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2B8BAF4115EF195100EEFB1D /* StoryTime */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2B8BAF4015EF195100EEFB1D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B8BAF5115EF195100EEFB1D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2B8BAF3E15EF195100EEFB1D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B8BAF5315EF195100EEFB1D /* main.m in Sources */,
+				2B8BAF5715EF195100EEFB1D /* STAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2B8BAF4F15EF195100EEFB1D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B8BAF5015EF195100EEFB1D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2B8BAF5815EF195100EEFB1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2B8BAF5915EF195100EEFB1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2B8BAF5B15EF195100EEFB1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StoryTime/StoryTime-Prefix.pch";
+				INFOPLIST_FILE = "StoryTime/StoryTime-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2B8BAF5C15EF195100EEFB1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StoryTime/StoryTime-Prefix.pch";
+				INFOPLIST_FILE = "StoryTime/StoryTime-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2B8BAF3C15EF195100EEFB1D /* Build configuration list for PBXProject "StoryTime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B8BAF5815EF195100EEFB1D /* Debug */,
+				2B8BAF5915EF195100EEFB1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B8BAF5A15EF195100EEFB1D /* Build configuration list for PBXNativeTarget "StoryTime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B8BAF5B15EF195100EEFB1D /* Debug */,
+				2B8BAF5C15EF195100EEFB1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2B8BAF3915EF195100EEFB1D /* Project object */;
+}
