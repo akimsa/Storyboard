@@ -13,6 +13,7 @@
 		2B8BAF5115EF195100EEFB1D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2B8BAF4F15EF195100EEFB1D /* InfoPlist.strings */; };
 		2B8BAF5315EF195100EEFB1D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B8BAF5215EF195100EEFB1D /* main.m */; };
 		2B8BAF5715EF195100EEFB1D /* STAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B8BAF5615EF195100EEFB1D /* STAppDelegate.m */; };
+		2B8BAF5E15EF19F500EEFB1D /* StoryTime.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B8BAF5D15EF19F500EEFB1D /* StoryTime.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		2B8BAF5415EF195100EEFB1D /* StoryTime-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "StoryTime-Prefix.pch"; sourceTree = "<group>"; };
 		2B8BAF5515EF195100EEFB1D /* STAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STAppDelegate.h; sourceTree = "<group>"; };
 		2B8BAF5615EF195100EEFB1D /* STAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = STAppDelegate.m; sourceTree = "<group>"; };
+		2B8BAF5D15EF19F500EEFB1D /* StoryTime.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = StoryTime.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 			children = (
 				2B8BAF5515EF195100EEFB1D /* STAppDelegate.h */,
 				2B8BAF5615EF195100EEFB1D /* STAppDelegate.m */,
+				2B8BAF5D15EF19F500EEFB1D /* StoryTime.storyboard */,
 				2B8BAF4D15EF195100EEFB1D /* Supporting Files */,
 			);
 			path = StoryTime;
@@ -143,6 +146,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2B8BAF5115EF195100EEFB1D /* InfoPlist.strings in Resources */,
+				2B8BAF5E15EF19F500EEFB1D /* StoryTime.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
